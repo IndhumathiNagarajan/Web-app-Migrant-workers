@@ -1,0 +1,138 @@
+body {
+	padding-top: 50px;
+	color: black;                
+}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	}
+	
+.feature {
+	background-color: yellowgreen;
+	color: greenyellow;
+	}
+	
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: goldenrod;
+    color: black;
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+	background-color: #fff;
+	padding: 30px 0;
+                text-align: center;
+                border-top: solid thin;
+}
+.col-lg-12 {
+    min-height: 500px;
+}
+.col-lg-12 p {
+    font-size: 17px;    
+}
+/**************************************************/
+table.login_tab {
+    margin:30px auto;
+    border:solid thin gray;
+    border-radius: 0.5em;
+    background-color: rgba(255,255,255,1);
+    opacity: 1;
+    min-width: 40%;
+}
+table.login_tab thead tr th {
+    text-align: center;
+    height: 30px;
+}
+table.login_tab thead tr:last-child th {
+    border-bottom: solid thin gray;
+}
+table.login_tab tbody tr th {
+    text-align: right;
+}
+table.login_tab tfoot tr:last-child td {
+    text-align: center;
+}
+table.report_tab {
+    margin: 30px auto;
+    border:solid thin gray;
+    border-radius: .5em;
+    border-spacing: 0;
+    min-width: 75%;
+}
+table.report_tab tbody td, table.report_tab thead th {
+    padding: 2px 4px;
+}
+table.report_tab thead tr th, table.left_tab thead tr th {
+    text-align: center;
+}
+table.report_tab thead tr:last-child th, table.left_tab thead tr:last-child th, table.right_tab thead tr:last-child th {
+    border-bottom: solid thin gray;
+}
+table.report_tab tbody tr td, table.right_tab tbody tr td {
+    border-right: solid thin gray;
+}
+table.report_tab tbody tr td:last-child, table.right_tab tbody tr td:last-child {
+    border-right: none;
+}
+table.report_tab tfoot tr:first-child td {
+    border-top: solid thin gray;
+    text-align: center;
+    padding: 5px 0px;
+}
+table.left_tab {
+    float:left;
+    border:solid thin gray;
+    border-radius: .5em;    
+}
+table.left_tab tbody tr th {
+    text-align: right;
+}
+table.left_tab tfoot tr td {
+    text-align: center;
+}
+table.right_tab {
+    max-width: 50%;
+    float:right;
+    border:solid thin gray;
+    border-radius: .5em;
+    border-spacing: 0;
+}
+table.right_tab thead tr th {
+    text-align: center;
+}
+table.right_tab tbody tr td {
+    padding: 2px 5px;
+}
+table.right_tab thead tr:last-child th {
+    padding: 5px 0px;
+}
+.center {
+    text-align: center;
+}
+.mh {
+    min-height: 700px;
+}
+.rdiv {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.mw {
+    width:80%;
+}
+.right {
+    text-align: right;
+}
+p.error {
+    text-align: center;
+    font-style: italic;
+    color:red;
+}
